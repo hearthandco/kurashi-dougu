@@ -1,0 +1,4 @@
+/* テーマ色（config.json の theme_color / theme_color_dark から自動生成。直接編集しても次回上書きされます） */
+:root { --color-primary: #15803d; --color-primary-dark: #166534; }
+.lp-body { --lp-accent: #15803d; --lp-accent-soft: #ecf5ef; }
+.lp-eyebrow { border-color: #c4dfce; }

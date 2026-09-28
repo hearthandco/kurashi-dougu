@@ -1,0 +1,711 @@
+/* =========================================================
+   Rakuten LP Kit - Base Stylesheet
+   さまざまなジャンルのLPを量産するための親テンプレート用CSS。
+
+   構成:
+   1. Reset / Base
+   2. Design Tokens (CSS Variables)
+   3. Layout Utilities (container / section / grid / flex 等)
+   4. Header / Navigation
+   5. Buttons
+   6. Cards / Grid
+   7. LP共通パーツ（Hero / CTA / Feature / Step / Price / FAQ / Comparison / Notice）
+   8. Footer
+   9. Utility Classes（sp-only / pc-only / text-center 等）
+   10. Media Queries (Mobile-first)
+
+   ※ 将来 /lp/ 以下に個別LPを追加する際は、この style.css の
+   　 クラス（.container, .section, .card, .btn 等）を再利用する想定。
+   　 LP固有のスタイルは各LPフォルダ内の style.css に追加し、
+   　 このファイルは書き換えないことを推奨する。
+   ========================================================= */
+
+/* ---------------------------------------------------------
+   1. Reset / Base
+   --------------------------------------------------------- */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+img,
+picture,
+svg {
+  max-width: 100%;
+  display: block;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  color: inherit;
+}
+
+button {
+  font: inherit;
+  color: inherit;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+/* 動きを抑えたい利用者への配慮 */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* ---------------------------------------------------------
+   2. Design Tokens
+   将来のLPでも共通利用できるよう、色・余白等はすべて変数化する。
+   --------------------------------------------------------- */
+:root {
+  /* Colors */
+  --color-primary: #2563eb;
+  --color-primary-dark: #1d4ed8;
+  --color-text: #1a1d21;
+  --color-text-light: #5a6270;
+  --color-background: #ffffff;
+  --color-background-light: #f7f8fa;
+  --color-border: #e3e6ea;
+  --color-white: #ffffff;
+
+  /* Semantic aliases（LP側で状態色を追加する際の起点） */
+  --color-accent: var(--color-primary);
+  --color-accent-dark: var(--color-primary-dark);
+
+  /* Typography */
+  --font-family-base: "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Noto Sans JP",
+    "Yu Gothic", Meiryo, system-ui, -apple-system, sans-serif;
+  --font-size-base: 16px;
+  --line-height-base: 1.8;
+
+  /* Layout */
+  --container-width: 1080px;
+  --container-width-narrow: 720px;
+  --container-padding: 1.25rem;
+  --header-height: 64px;
+  --radius: 8px;
+  --radius-lg: 16px;
+
+  /* Spacing scale */
+  --space-1: 0.5rem;
+  --space-2: 1rem;
+  --space-3: 1.5rem;
+  --space-4: 2rem;
+  --space-5: 3rem;
+  --space-6: 4rem;
+}
+
+/* ---------------------------------------------------------
+   Base typography
+   --------------------------------------------------------- */
+body {
+  font-family: var(--font-family-base);
+  font-size: var(--font-size-base);
+  line-height: var(--line-height-base);
+  color: var(--color-text);
+  background-color: var(--color-background);
+}
+
+h1,
+h2,
+h3,
+h4 {
+  line-height: 1.4;
+  margin: 0 0 var(--space-2);
+}
+
+p {
+  margin: 0 0 var(--space-2);
+}
+
+a {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+a:hover {
+  color: var(--color-primary);
+}
+
+/* キーボード操作時のフォーカス可視化 */
+a:focus-visible,
+button:focus-visible {
+  outline: 3px solid var(--color-primary);
+  outline-offset: 2px;
+}
+
+/* ---------------------------------------------------------
+   3. Layout Utilities
+   --------------------------------------------------------- */
+.container {
+  width: 100%;
+  max-width: var(--container-width);
+  margin-inline: auto;
+  padding-inline: var(--container-padding);
+}
+
+.container--narrow {
+  max-width: var(--container-width-narrow);
+}
+
+.section {
+  padding-block: var(--space-5);
+}
+
+.section--muted {
+  background-color: var(--color-background-light);
+}
+
+.section-title {
+  font-size: 1.5rem;
+  text-align: center;
+  margin-bottom: var(--space-2);
+}
+
+.section-lead {
+  color: var(--color-text-light);
+  max-width: 640px;
+  margin-inline: auto;
+  margin-bottom: var(--space-4);
+  text-align: center;
+}
+
+.grid {
+  display: grid;
+  gap: var(--space-3);
+}
+
+.grid-2 {
+  grid-template-columns: 1fr;
+}
+
+.grid-3 {
+  grid-template-columns: 1fr;
+}
+
+.grid-4 {
+  grid-template-columns: 1fr;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+}
+
+/* スキップリンク: 通常は非表示、フォーカス時のみ表示 */
+.skip-link {
+  position: absolute;
+  left: 1rem;
+  top: -3rem;
+  background: var(--color-primary);
+  color: var(--color-white);
+  padding: 0.5rem 1rem;
+  border-radius: var(--radius);
+  z-index: 1000;
+  transition: top 0.15s ease;
+  text-decoration: none;
+}
+
+.skip-link:focus {
+  top: 1rem;
+}
+
+/* ---------------------------------------------------------
+   4. Header / Navigation
+   --------------------------------------------------------- */
+.site-header {
+  border-bottom: 1px solid var(--color-border);
+  background-color: var(--color-background);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.header-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: var(--header-height);
+  position: relative;
+}
+
+.site-logo {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 1.0625rem;
+  font-weight: 700;
+  text-decoration: none;
+  color: var(--color-text);
+  letter-spacing: 0.02em;
+}
+
+/* ロゴマーク: 画像を使わずCSSのみで表現 */
+.site-logo-mark {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  border-radius: 8px;
+  background-color: var(--color-primary);
+  color: var(--color-white);
+  font-size: 0.9375rem;
+  font-weight: 700;
+  flex-shrink: 0;
+}
+
+.nav-toggle {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  width: 44px;
+  height: 44px;
+  border-radius: var(--radius);
+}
+
+.nav-toggle span {
+  display: block;
+  width: 22px;
+  height: 2px;
+  background-color: var(--color-text);
+}
+
+.site-nav {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background-color: var(--color-background);
+  border-bottom: 1px solid var(--color-border);
+  display: none;
+}
+
+.site-nav.is-open {
+  display: block;
+}
+
+.site-nav ul {
+  display: flex;
+  flex-direction: column;
+  padding: var(--space-2) var(--container-padding);
+}
+
+.site-nav a {
+  display: block;
+  padding: var(--space-1) 0;
+  text-decoration: none;
+  color: var(--color-text);
+}
+
+.site-nav a[aria-current="page"] {
+  color: var(--color-primary);
+  font-weight: 700;
+}
+
+/* ---------------------------------------------------------
+   5. Buttons
+   --------------------------------------------------------- */
+.btn {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  border-radius: var(--radius);
+  font-weight: 700;
+  text-decoration: none;
+  text-align: center;
+  transition: background-color 0.15s ease, color 0.15s ease, border-color 0.15s ease;
+}
+
+.btn-primary {
+  background-color: var(--color-primary);
+  color: var(--color-white);
+}
+
+.btn-primary:hover {
+  background-color: var(--color-primary-dark);
+  color: var(--color-white);
+}
+
+.btn-secondary {
+  background-color: transparent;
+  color: var(--color-primary);
+  border: 1px solid var(--color-primary);
+}
+
+.btn-secondary:hover {
+  background-color: var(--color-primary);
+  color: var(--color-white);
+}
+
+/* ---------------------------------------------------------
+   6. Cards / Grid
+   --------------------------------------------------------- */
+.card {
+  background-color: var(--color-background);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  padding: var(--space-3);
+  height: 100%;
+}
+
+.card h3 {
+  font-size: 1.0625rem;
+}
+
+.card-grid {
+  display: grid;
+  gap: var(--space-3);
+  grid-template-columns: 1fr;
+}
+
+.badge {
+  display: inline-block;
+  padding: 0.15rem 0.6rem;
+  border-radius: 999px;
+  background-color: var(--color-background-light);
+  border: 1px solid var(--color-border);
+  color: var(--color-text-light);
+  font-size: 0.75rem;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+/* ---------------------------------------------------------
+   7. LP共通パーツ
+   トップページでは一部のみ使用。残りは将来 /lp/ 配下の
+   LPを作成する際に再利用するための土台として用意している。
+   --------------------------------------------------------- */
+
+/* --- Hero --- */
+.hero {
+  padding-block: var(--space-6) var(--space-5);
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 1.75rem;
+}
+
+.hero .lead {
+  color: var(--color-text-light);
+  max-width: 640px;
+  margin-inline: auto;
+}
+
+.hero-actions {
+  margin-top: var(--space-3);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-1);
+  align-items: center;
+}
+
+/* --- CTA --- */
+.cta {
+  text-align: center;
+  padding: var(--space-5) var(--space-3);
+  background-color: var(--color-background-light);
+  border-radius: var(--radius-lg);
+}
+
+.cta-actions {
+  margin-top: var(--space-3);
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+  justify-content: center;
+}
+
+/* --- Feature（特徴紹介。.card-grid + .card と併用） --- */
+.feature-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: var(--radius);
+  background-color: var(--color-background-light);
+  color: var(--color-primary);
+  font-weight: 700;
+  margin-bottom: var(--space-2);
+}
+
+/* --- Step（制作フローなどの手順表示） --- */
+.step-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  counter-reset: step;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.step-list li {
+  counter-increment: step;
+  position: relative;
+  background-color: var(--color-background);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  padding: var(--space-2) var(--space-3);
+  text-align: center;
+}
+
+.step-list li::before {
+  content: counter(step);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background-color: var(--color-primary);
+  color: var(--color-white);
+  font-weight: 700;
+  font-size: 0.875rem;
+  margin-bottom: var(--space-1);
+}
+
+.step-list li:not(:last-child)::after {
+  content: "↓";
+  display: block;
+  margin-top: var(--space-1);
+  color: var(--color-text-light);
+  font-weight: 700;
+}
+
+/* --- Price（将来のLP用の料金表スカフォールド） --- */
+.price-card {
+  text-align: center;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  padding: var(--space-3);
+  background-color: var(--color-background);
+}
+
+.price-card .price-value {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--color-primary);
+}
+
+/* --- FAQ（将来のLP用。details/summaryで実装） --- */
+.faq-item {
+  border-bottom: 1px solid var(--color-border);
+  padding-block: var(--space-2);
+}
+
+.faq-item summary {
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.faq-item p {
+  margin-top: var(--space-1);
+  color: var(--color-text-light);
+}
+
+/* --- Comparison（将来のLP用の比較表。横スクロール対応） --- */
+.comparison-scroll {
+  overflow-x: auto;
+}
+
+.comparison-table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 480px;
+}
+
+.comparison-table th,
+.comparison-table td {
+  border: 1px solid var(--color-border);
+  padding: var(--space-1) var(--space-2);
+  text-align: left;
+}
+
+.comparison-table th {
+  background-color: var(--color-background-light);
+}
+
+/* --- Notice（準備中・注意書き） --- */
+.notice {
+  background-color: var(--color-background-light);
+  border: 1px dashed var(--color-border);
+  border-radius: var(--radius);
+  padding: var(--space-3);
+  color: var(--color-text-light);
+}
+
+/* ---------------------------------------------------------
+   8. Footer
+   --------------------------------------------------------- */
+.site-footer {
+  border-top: 1px solid var(--color-border);
+  background-color: var(--color-background-light);
+  padding-block: var(--space-4);
+}
+
+.footer-inner {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  align-items: center;
+  text-align: center;
+}
+
+.footer-nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: var(--space-2);
+}
+
+.footer-nav a {
+  text-decoration: none;
+  color: var(--color-text-light);
+  font-size: 0.875rem;
+}
+
+.footer-copyright {
+  color: var(--color-text-light);
+  font-size: 0.8125rem;
+  margin: 0;
+}
+
+/* ---------------------------------------------------------
+   9. Utility Classes
+   --------------------------------------------------------- */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.text-center {
+  text-align: center;
+}
+
+/* スマートフォンのみ表示 / PCのみ表示（768px を境目とする） */
+.sp-only {
+  display: block;
+}
+
+.pc-only {
+  display: none;
+}
+
+/* ---------------------------------------------------------
+   10. Media Queries (Mobile-first: 768px以上でデスクトップ表示)
+   --------------------------------------------------------- */
+@media (min-width: 768px) {
+  .nav-toggle {
+    display: none;
+  }
+
+  .site-nav {
+    position: static;
+    display: block;
+    border-bottom: none;
+    background: none;
+  }
+
+  .site-nav ul {
+    flex-direction: row;
+    padding: 0;
+    gap: var(--space-3);
+  }
+
+  .site-nav a {
+    padding: 0;
+  }
+
+  .hero h1 {
+    font-size: 2.25rem;
+  }
+
+  .hero-actions {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .grid-2 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .grid-3 {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .grid-4 {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .card-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .step-list {
+    flex-direction: row;
+    align-items: stretch;
+  }
+
+  .step-list li {
+    flex: 1;
+  }
+
+  .step-list li:not(:last-child)::after {
+    content: "→";
+    position: absolute;
+    top: 50%;
+    right: calc(var(--space-2) * -1 - 4px);
+    transform: translateY(-50%);
+    margin-top: 0;
+  }
+
+  .footer-inner {
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: left;
+  }
+
+  .sp-only {
+    display: none;
+  }
+
+  .pc-only {
+    display: block;
+  }
+}
+
+@media (min-width: 900px) {
+  .card-grid--4 {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}

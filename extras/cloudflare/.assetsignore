@@ -1,0 +1,11 @@
+# Cloudflare に公開しないファイル
+tools/
+extras/
+*.bat
+Mac用/
+はじめにお読みください.txt
+wrangler.jsonc
+.git/
+.gitignore
+AGENTS.md
+CLAUDE.md

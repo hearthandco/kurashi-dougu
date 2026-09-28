@@ -1,0 +1,170 @@
+{
+  "_説明": "このファイルはセットアップ(1_初回セットアップ)で自動入力されます。数字だけ変えたいときはメモ帳で開いて編集してOK（詳しくはマニュアル第13章）。",
+  "site_base_url": "https://hearthandco.github.io/kurashi-dougu",
+  "site_name": "暮らしの道具ノート",
+  "logo_text": "暮",
+  "theme_color": "#15803d",
+  "theme_color_dark": "#166534",
+  "operator_name": "Hearth & Co.",
+  "contact": "",
+  "ai_provider": "gemini",
+  "openai_model": "gpt-6-luna",
+  "claude_model": "claude-haiku-4-5-20251001",
+  "paid_ai_interval_sec": 2,
+  "source": "keywords",
+  "ranking_sources": [
+    {
+      "label": "総合リアルタイム（流行）",
+      "period": "realtime"
+    },
+    {
+      "label": "総合デイリー（売れ筋）"
+    },
+    {
+      "label": "30代女性",
+      "age": 30,
+      "sex": 1
+    },
+    {
+      "label": "40代女性",
+      "age": 40,
+      "sex": 1
+    },
+    {
+      "label": "20代女性",
+      "age": 20,
+      "sex": 1
+    },
+    {
+      "label": "30代男性",
+      "age": 30,
+      "sex": 0
+    },
+    {
+      "label": "40代男性",
+      "age": 40,
+      "sex": 0
+    },
+    {
+      "label": "20代男性",
+      "age": 20,
+      "sex": 0
+    },
+    {
+      "label": "50代以上女性",
+      "age": 50,
+      "sex": 1
+    }
+  ],
+  "ranking_pages_per_source": 4,
+  "ranking_sources_per_run": 9,
+  "max_lookups_per_run": 300,
+  "fallback_to_keywords": true,
+  "daily_target": 3,
+  "max_per_run": 3,
+  "max_per_category_per_day": 3,
+  "max_per_product_type_per_day": 2,
+  "min_primary_score": 55,
+  "min_final_score": 75,
+  "min_review_count": 20,
+  "min_review_average": 3.8,
+  "rakuten_hits_per_page": 30,
+  "rakuten_pages_per_keyword": 2,
+  "rakuten_interval_sec": 1.2,
+  "gemini_interval_sec": 6,
+  "gemini_max_calls_per_run": 60,
+  "image_size": "600x600",
+  "max_images": 6,
+  "related_links": 4,
+  "audit_per_day": 10,
+  "env_files": [
+    "secrets.env"
+  ],
+  "categories": [
+    {
+      "slug": "kitchen",
+      "label": "キッチン",
+      "layout": "appliance",
+      "keywords": [
+        "フライパン",
+        "保存容器",
+        "包丁",
+        "水筒",
+        "キッチン 便利"
+      ]
+    },
+    {
+      "slug": "appliances",
+      "label": "家電",
+      "layout": "appliance",
+      "keywords": [
+        "電気ケトル",
+        "サーキュレーター",
+        "加湿器",
+        "掃除機",
+        "ホットプレート"
+      ]
+    },
+    {
+      "slug": "pc-smartphone",
+      "label": "PC・スマホ周辺機器",
+      "layout": "appliance",
+      "keywords": [
+        "モバイルバッテリー",
+        "ワイヤレスイヤホン",
+        "スマホスタンド",
+        "USB 充電器",
+        "マウス"
+      ]
+    },
+    {
+      "slug": "living",
+      "label": "生活雑貨・日用品",
+      "layout": "living",
+      "keywords": [
+        "バスタオル",
+        "洗濯",
+        "掃除 便利",
+        "消臭"
+      ]
+    },
+    {
+      "slug": "interior",
+      "label": "収納・インテリア",
+      "layout": "interior",
+      "keywords": [
+        "収納ボックス",
+        "ラグ",
+        "照明",
+        "クッション",
+        "カーテン"
+      ]
+    },
+    {
+      "slug": "other",
+      "label": "その他",
+      "layout": "living",
+      "keywords": []
+    }
+  ],
+  "gemini_daily_calls_limit": 60,
+  "max_run_minutes": 180,
+  "gemini_model": "gemini-3.5-flash-lite",
+  "gemini_fallback_models": [
+    "gemini-3.1-flash-lite",
+    "gemini-3.8-flash"
+  ],
+  "schedule_time": "10:00",
+  "_数字の意味": {
+    "daily_target": "1日に作るLPの上限",
+    "gemini_daily_calls_limit": "1日にAIを呼び出す上限回数（無料枠・料金の使いすぎを防ぐ安全装置。LP1本で3〜5回使います）",
+    "audit_per_day": "公開済みLPを毎日何本点検するか",
+    "min_final_score": "LPにする商品の合格点（高いほど厳選）",
+    "min_review_count": "レビュー件数がこれ未満の商品は除外",
+    "schedule_time": "毎日の自動実行の時刻",
+    "gemini_model": "使うAIモデル。無料枠は1日の回数上限がモデルごとに違います（Google AI Studio →「レート制限」で確認）",
+    "ai_provider": "文章を書くAI。\"gemini\"（無料枠）/ \"openai\"（ChatGPT・有料）/ \"claude\"（Claude・有料）。1_初回セットアップで選べます",
+    "openai_model": "ChatGPTを選んだときのモデル名（安い順: gpt-6-luna → gpt-6-sol）",
+    "claude_model": "Claudeを選んだときのモデル名（安い順: claude-haiku-4-5-20251001 → claude-sonnet-5）"
+  }
+}

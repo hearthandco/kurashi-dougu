@@ -1,0 +1,242 @@
+{
+  "products": {
+    "mockbeauty:10000001": {
+      "item_code": "mockbeauty:10000001",
+      "slug": "mockbeauty-10000001",
+      "item_name": "【楽天1位】美容液 ビタミンC誘導体 30ml 保湿 送料無料 スキンケア",
+      "display_name": "美容液 ビタミンC誘導体 30ml 保湿 スキンケア",
+      "item_url": "https://item.rakuten.co.jp/mockbeauty/x/",
+      "affiliate_url": "https://hb.afl.rakuten.co.jp/hgc/mock/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fmockbeauty%2Fx%2F",
+      "category": "beauty",
+      "category_label": "美容・スキンケア",
+      "keyword": "美容液",
+      "product_type": "美容液",
+      "keywords": [
+        "美容液",
+        "選び方"
+      ],
+      "related_needs": [
+        "美容液"
+      ],
+      "primary_score": 56.3,
+      "score_detail": {
+        "info": 9.1,
+        "reviews": 13.0,
+        "rating": 8.5,
+        "price": 10,
+        "images": 10,
+        "specificity": 5.7
+      },
+      "ai_scores": {
+        "problem_solving": 11,
+        "target_clarity": 8,
+        "lp_fit": 4
+      },
+      "final_score": 79.3,
+      "lp_path": "products/beauty/mockbeauty-10000001/index.html",
+      "lp_url": "https://YOUR-GITHUB-NAME.github.io/YOUR-REPO/products/beauty/mockbeauty-10000001/",
+      "images": [
+        "https://thumbnail.image.rakuten.co.jp/@0_mall/mockbeauty/cabinet/img1.jpg?_ex=128x128",
+        "https://thumbnail.image.rakuten.co.jp/@0_mall/mockbeauty/cabinet/img2.jpg?_ex=128x128",
+        "https://thumbnail.image.rakuten.co.jp/@0_mall/mockbeauty/cabinet/img3.jpg?_ex=128x128"
+      ],
+      "image_count": 3,
+      "title": "美容液を選ぶ前に確認したいこと｜美容液 ビタミンC誘導体 3",
+      "status": "excluded",
+      "created_at": "2026-09-25T15:51:06+09:00",
+      "updated_at": "9999-12-31T00:00:00+09:00",
+      "last_checked_at": "2026-09-25T15:51:06+09:00",
+      "fail_count": 0,
+      "voice": "落ち着いた解説調",
+      "auto_fixes": 0,
+      "related": [],
+      "review_changes": 0,
+      "reason": "取り下げ: てんぴ指示ID105（対象外）",
+      "manual_block": true
+    },
+    "irisplaza-r:10170526": {
+      "item_code": "irisplaza-r:10170526",
+      "slug": "irisplaza-r-10170526",
+      "item_name": "【令和7年産100％使用】白米 無洗米 和の輝き ブレンド米 10kg (5kg×2袋) 15kg (5kg×3袋) 密封新鮮パック 脱酸素剤入り 米 お米 国産 10キロ 15キロ 低温製法米 送料無料 アイリスオーヤマ",
+      "display_name": "白米 無洗米 和の輝き ブレンド米 10kg 15kg 密封新鮮パック",
+      "item_url": "https://hb.afl.rakuten.co.jp/hgc/g00t3zt1.ca4ucf40.g00t3zt1.ca4udf55/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Firisplaza-r%2F113800%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Firisplaza-r%2Fi%2F10170526%2F&rafcid=wsc_i_ra_7b91c1b3-6a2d-4ab1-af5e-40fd63cc804e",
+      "affiliate_url": "https://hb.afl.rakuten.co.jp/hgc/g00t3zt1.ca4ucf40.g00t3zt1.ca4udf55/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Firisplaza-r%2F113800%2F&rafcid=wsc_i_ra_7b91c1b3-6a2d-4ab1-af5e-40fd63cc804e",
+      "category": "food",
+      "category_label": "食品・飲料",
+      "keyword": "",
+      "product_type": "白米",
+      "keywords": [
+        "アイリスオーヤマ",
+        "無洗米",
+        "和の輝き",
+        "ブレンド米",
+        "低温製法米",
+        "密封新鮮パック"
+      ],
+      "related_needs": [
+        "お米保存容器",
+        "天然水",
+        "おかず用冷凍食品",
+        "米びつ"
+      ],
+      "primary_score": 68.7,
+      "score_detail": {
+        "info": 15.0,
+        "reviews": 13.7,
+        "rating": 10.0,
+        "price": 10,
+        "images": 10,
+        "specificity": 10,
+        "trend_bonus": 7.0,
+        "rank": 19
+      },
+      "ai_scores": {
+        "problem_solving": 12,
+        "target_clarity": 8,
+        "lp_fit": 4
+      },
+      "final_score": 92.7,
+      "lp_path": "products/food/irisplaza-r-10170526/index.html",
+      "lp_url": "https://YOUR-GITHUB-NAME.github.io/YOUR-REPO/products/food/irisplaza-r-10170526/",
+      "images": [
+        "https://thumbnail.image.rakuten.co.jp/@0_mall/irisplaza-r/cabinet/12351902/imgrc0120697447.jpg?_ex=128x128"
+      ],
+      "image_count": 1,
+      "title": "アイリスオーヤマの和の輝き 米10kg 15kgの特徴と選び方",
+      "status": "excluded",
+      "created_at": "2026-09-28T13:14:02+09:00",
+      "updated_at": "9999-12-31T00:00:00+09:00",
+      "last_checked_at": "2026-09-28T13:14:02+09:00",
+      "fail_count": 0,
+      "voice": "要点先出しの簡潔調",
+      "auto_fixes": 1,
+      "related": [],
+      "review_changes": 3,
+      "reason": "取り下げ: てんぴ指示ID105（対象外）",
+      "manual_block": true
+    },
+    "plywood:10017400": {
+      "item_code": "plywood:10017400",
+      "slug": "plywood-10017400",
+      "item_name": "★楽天1位【30レシピ＋選べる2特典】レコルト 自動調理ポット RSY-2 自動調理 正規品recolte Auto Cooking Pot 電気 ミキサー ブレンダー 豆乳メーカー スープメーカー スープ スープジャー 小型 レシピ付き◇離乳食 介護食 豆乳機 保温 氷OK 送料無料 P10倍",
+      "display_name": "レコルト 自動調理ポット RSY-2",
+      "item_url": "https://hb.afl.rakuten.co.jp/hgc/g00pzd81.ca4ucaac.g00pzd81.ca4udcd8/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fplywood%2F20149238%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fplywood%2Fi%2F10017400%2F&rafcid=wsc_i_is_7b91c1b3-6a2d-4ab1-af5e-40fd63cc804e",
+      "affiliate_url": "https://hb.afl.rakuten.co.jp/hgc/g00pzd81.ca4ucaac.g00pzd81.ca4udcd8/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fplywood%2F20149238%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fplywood%2Fi%2F10017400%2F&rafcid=wsc_i_is_7b91c1b3-6a2d-4ab1-af5e-40fd63cc804e",
+      "category": "kitchen",
+      "category_label": "キッチン",
+      "keyword": "キッチン 便利",
+      "product_type": "自動調理ポット",
+      "keywords": [
+        "レコルト",
+        "自動調理ポット",
+        "スープメーカー",
+        "豆乳メーカー",
+        "ミキサー",
+        "調理家電"
+      ],
+      "related_needs": [
+        "保存容器",
+        "キッチンスケール",
+        "耐熱食器",
+        "エプロン"
+      ],
+      "primary_score": 68.8,
+      "score_detail": {
+        "info": 15.0,
+        "reviews": 13.8,
+        "rating": 10.0,
+        "price": 10,
+        "images": 10,
+        "specificity": 10
+      },
+      "ai_scores": {
+        "problem_solving": 13,
+        "target_clarity": 9,
+        "lp_fit": 5
+      },
+      "final_score": 95.8,
+      "lp_path": "products/kitchen/plywood-10017400/index.html",
+      "lp_url": "https://YOUR-GITHUB-NAME.github.io/YOUR-REPO/products/kitchen/plywood-10017400/",
+      "images": [
+        "https://thumbnail.image.rakuten.co.jp/@0_mall/plywood/cabinet/502/20149324.jpg?_ex=128x128",
+        "https://thumbnail.image.rakuten.co.jp/@0_mall/plywood/cabinet/kaden11/20149324-sab1.jpg?_ex=128x128"
+      ],
+      "image_count": 2,
+      "title": "レコルト 自動調理ポットRSY-2の特長と使い方を整理",
+      "status": "published",
+      "created_at": "2026-09-28T16:05:51+09:00",
+      "updated_at": "2026-09-28T16:05:51+09:00",
+      "last_checked_at": "2026-09-28T16:05:51+09:00",
+      "fail_count": 0,
+      "voice": "比較検討を手伝う整理調",
+      "auto_fixes": 0,
+      "related": [],
+      "review_changes": 1
+    },
+    "lapset:10000007": {
+      "item_code": "lapset:10000007",
+      "slug": "lapset-10000007",
+      "item_name": "【楽天ランキング1位獲得】三脚 スマホスタンド 高い 軽い スマホ スタンド スマホ三脚 自撮り棒 iphone アンドロイド iphoneスタンド 自撮り 軽量 コンパクト スマホ用三脚 便利 三脚スタンド 新スマホホルダー 210cm 160cm 送料無料",
+      "display_name": "スマホスタンド スマホ三脚 自撮り棒 iphone アンドロイド",
+      "item_url": "https://hb.afl.rakuten.co.jp/hgc/g00tv5j1.ca4uc6fa.g00tv5j1.ca4ud536/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Flapset%2Fcompass1603627997%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Flapset%2Fi%2F10000007%2F&rafcid=wsc_i_is_7b91c1b3-6a2d-4ab1-af5e-40fd63cc804e",
+      "affiliate_url": "https://hb.afl.rakuten.co.jp/hgc/g00tv5j1.ca4uc6fa.g00tv5j1.ca4ud536/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Flapset%2Fcompass1603627997%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Flapset%2Fi%2F10000007%2F&rafcid=wsc_i_is_7b91c1b3-6a2d-4ab1-af5e-40fd63cc804e",
+      "category": "pc-smartphone",
+      "category_label": "PC・スマホ周辺機器",
+      "keyword": "スマホスタンド",
+      "product_type": "スマホ三脚",
+      "keywords": [
+        "スマホ三脚",
+        "スマホスタンド",
+        "自撮り棒",
+        "ロング三脚",
+        "iphone",
+        "android"
+      ],
+      "related_needs": [
+        "スマホ用Bluetoothリモコン",
+        "スマホホルダー",
+        "モバイルバッテリー",
+        "スマホ用マイク"
+      ],
+      "primary_score": 68.8,
+      "score_detail": {
+        "info": 15.0,
+        "reviews": 14.3,
+        "rating": 9.5,
+        "price": 10,
+        "images": 10,
+        "specificity": 10
+      },
+      "ai_scores": {
+        "problem_solving": 13,
+        "target_clarity": 9,
+        "lp_fit": 5
+      },
+      "final_score": 95.8,
+      "lp_path": "products/pc-smartphone/lapset-10000007/index.html",
+      "lp_url": "https://YOUR-GITHUB-NAME.github.io/YOUR-REPO/products/pc-smartphone/lapset-10000007/",
+      "images": [
+        "https://thumbnail.image.rakuten.co.jp/@0_mall/lapset/cabinet/10989764/10989768/11467402/imgrc0159517304.jpg?_ex=128x128"
+      ],
+      "image_count": 1,
+      "title": "スマホスタンド・自撮り棒の長さを比較、iPhoneやAndroid対応",
+      "status": "published",
+      "created_at": "2026-09-28T16:06:36+09:00",
+      "updated_at": "2026-09-28T16:06:36+09:00",
+      "last_checked_at": "2026-09-28T16:06:36+09:00",
+      "fail_count": 0,
+      "voice": "落ち着いた解説調",
+      "auto_fixes": 0,
+      "related": [],
+      "review_changes": 3
+    }
+  },
+  "state": {
+    "next_category": 3,
+    "gemini_calls": {
+      "2026-09-25": 3,
+      "2026-09-28": 9
+    },
+    "next_ranking_source": 0
+  }
+}

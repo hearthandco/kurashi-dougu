@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://hearthandco.github.io/kurashi-dougu/sitemap.xml
