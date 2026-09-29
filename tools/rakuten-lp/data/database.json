@@ -222,21 +222,86 @@
       "title": "スマホスタンド・自撮り棒の長さを比較、iPhoneやAndroid対応",
       "status": "published",
       "created_at": "2026-09-28T16:06:36+09:00",
-      "updated_at": "2026-09-28T16:06:36+09:00",
+      "updated_at": "2026-09-28T17:12:27+09:00",
       "last_checked_at": "2026-09-28T16:06:36+09:00",
       "fail_count": 0,
       "voice": "落ち着いた解説調",
       "auto_fixes": 0,
-      "related": [],
+      "related": [
+        "../../../products/pc-smartphone/honest-online-10000774/"
+      ],
       "review_changes": 3
+    },
+    "honest-online:10000774": {
+      "item_code": "honest-online:10000774",
+      "slug": "honest-online-10000774",
+      "item_name": "【47％OFFクーポンで996円〜】【レビュー数10,000件突破！楽天1位・1年保証】 スマホスタンド タブレットスタンド スマホ スタンド 折りたたみ 360°回転 スマートフォンスタンド 携帯スタンド スマホホルダー iPhone iPad スタンド 卓上 高さ調整",
+      "display_name": "スマホスタンド タブレットスタンド 折りたたみ 360°回転",
+      "item_url": "https://hb.afl.rakuten.co.jp/hgc/g00sceo1.ca4ucb3a.g00sceo1.ca4ud4a5/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fhonest-online%2Fusams-smp-stand-s3%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fhonest-online%2Fi%2F10000774%2F&rafcid=wsc_i_ra_7b91c1b3-6a2d-4ab1-af5e-40fd63cc804e",
+      "affiliate_url": "https://hb.afl.rakuten.co.jp/hgc/g00sceo1.ca4ucb3a.g00sceo1.ca4ud4a5/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fhonest-online%2Fusams-smp-stand-s3%2F&rafcid=wsc_i_ra_7b91c1b3-6a2d-4ab1-af5e-40fd63cc804e",
+      "category": "pc-smartphone",
+      "category_label": "PC・スマホ周辺機器",
+      "keyword": "",
+      "product_type": "スマホスタンド",
+      "keywords": [
+        "スマホスタンド",
+        "タブレットスタンド",
+        "折りたたみ",
+        "360°回転",
+        "卓上",
+        "角度調整"
+      ],
+      "related_needs": [
+        "USBハブ",
+        "ワイヤレス充電器",
+        "タブレットケース",
+        "Bluetoothキーボード"
+      ],
+      "primary_score": 68.8,
+      "score_detail": {
+        "info": 15.0,
+        "reviews": 14.2,
+        "rating": 9.6,
+        "price": 10,
+        "images": 10,
+        "specificity": 10,
+        "trend_bonus": 6.0,
+        "rank": 5
+      },
+      "ai_scores": {
+        "problem_solving": 13,
+        "target_clarity": 9,
+        "lp_fit": 4
+      },
+      "final_score": 94.8,
+      "lp_path": "products/pc-smartphone/honest-online-10000774/index.html",
+      "lp_url": "https://hearthandco.github.io/kurashi-dougu/products/pc-smartphone/honest-online-10000774/",
+      "images": [
+        "https://thumbnail.image.rakuten.co.jp/@0_mall/honest-online/cabinet/08451362/10212611/main.jpg?_ex=128x128",
+        "https://thumbnail.image.rakuten.co.jp/@0_mall/honest-online/cabinet/08451362/10212611/item01.jpg?_ex=128x128",
+        "https://thumbnail.image.rakuten.co.jp/@0_mall/honest-online/cabinet/08451362/10212611/item02.jpg?_ex=128x128"
+      ],
+      "image_count": 3,
+      "title": "スマホスタンド タブレットスタンドの折りたたみ機能と選び方",
+      "status": "published",
+      "created_at": "2026-09-28T17:12:27+09:00",
+      "updated_at": "2026-09-28T17:12:27+09:00",
+      "last_checked_at": "2026-09-28T17:12:27+09:00",
+      "fail_count": 0,
+      "voice": "要点先出しの簡潔調",
+      "auto_fixes": 1,
+      "related": [
+        "../../../products/pc-smartphone/lapset-10000007/"
+      ],
+      "review_changes": 2
     }
   },
   "state": {
     "next_category": 3,
     "gemini_calls": {
       "2026-09-25": 3,
-      "2026-09-28": 9
+      "2026-09-28": 12
     },
-    "next_ranking_source": 0
+    "next_ranking_source": 8
   }
 }

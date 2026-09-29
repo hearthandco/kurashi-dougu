@@ -11,49 +11,51 @@
   "openai_model": "gpt-6-luna",
   "claude_model": "claude-haiku-4-5-20251001",
   "paid_ai_interval_sec": 2,
-  "source": "keywords",
+  "source": "ranking",
   "ranking_sources": [
     {
-      "label": "総合リアルタイム（流行）",
-      "period": "realtime"
+      "label": "ジャンル別: フライパン",
+      "genre_id": 215927
     },
     {
-      "label": "総合デイリー（売れ筋）"
+      "label": "ジャンル別: 保存容器・キャニスター",
+      "genre_id": 564982
     },
     {
-      "label": "30代女性",
-      "age": 30,
-      "sex": 1
+      "label": "ジャンル別: 三徳包丁",
+      "genre_id": 210222
     },
     {
-      "label": "40代女性",
-      "age": 40,
-      "sex": 1
+      "label": "ジャンル別: 大人用水筒・マグボトル",
+      "genre_id": 402279
     },
     {
-      "label": "20代女性",
-      "age": 20,
-      "sex": 1
+      "label": "ジャンル別: 電気ケトル",
+      "genre_id": 562661
     },
     {
-      "label": "30代男性",
-      "age": 30,
-      "sex": 0
+      "label": "ジャンル別: 収納ケース・ボックス",
+      "genre_id": 300399
     },
     {
-      "label": "40代男性",
-      "age": 40,
-      "sex": 0
+      "label": "ジャンル別: バスタオル",
+      "genre_id": 551732
     },
     {
-      "label": "20代男性",
-      "age": 20,
-      "sex": 0
+      "label": "ジャンル別: モバイルバッテリー",
+      "genre_id": 564277
     },
     {
-      "label": "50代以上女性",
-      "age": 50,
-      "sex": 1
+      "label": "ジャンル別: スマートフォンスタンド",
+      "genre_id": 560283
+    },
+    {
+      "label": "ジャンル別: AC式充電器",
+      "genre_id": 509434
+    },
+    {
+      "label": "ジャンル別: ヘッドホン・イヤホン",
+      "genre_id": 502835
     }
   ],
   "ranking_pages_per_source": 4,

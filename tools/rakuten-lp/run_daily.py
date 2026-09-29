@@ -167,7 +167,8 @@ def research_ranking(config: dict, db: dict, need: int) -> list:
         for page in range(1, config.get("ranking_pages_per_source", 3) + 1):
             try:
                 items = rakuten_api.ranking(page=page, interval=config["rakuten_interval_sec"], period=src.get("period"),
-                                            age=src.get("age"), sex=src.get("sex"))
+                                            age=src.get("age"), sex=src.get("sex"),
+                                            genre_id=src.get("genre_id"))  # Hearth改造(2026-09-28): ジャンル別ランキング
             except rakuten_api.RakutenAPIError as e:
                 log(f"  ランキングAPI失敗（{src['label']} p{page}）: {e}")
                 append_log(FAILED_LOG, {"at": now_jst().isoformat(), "stage": "ranking", "source": src["label"], "error": redact(e)})
