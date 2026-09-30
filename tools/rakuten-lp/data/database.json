@@ -165,13 +165,15 @@
       "title": "レコルト 自動調理ポットRSY-2の特長と使い方を整理",
       "status": "published",
       "created_at": "2026-09-28T16:05:51+09:00",
-      "updated_at": "2026-09-28T16:05:51+09:00",
-      "last_checked_at": "2026-09-28T16:05:51+09:00",
+      "updated_at": "2026-09-29T22:00:01+09:00",
+      "last_checked_at": "2026-09-29T22:00:01+09:00",
       "fail_count": 0,
       "voice": "比較検討を手伝う整理調",
       "auto_fixes": 0,
       "related": [],
-      "review_changes": 1
+      "review_changes": 1,
+      "missing_count": 0,
+      "unavailable_count": 0
     },
     "lapset:10000007": {
       "item_code": "lapset:10000007",
@@ -222,15 +224,18 @@
       "title": "スマホスタンド・自撮り棒の長さを比較、iPhoneやAndroid対応",
       "status": "published",
       "created_at": "2026-09-28T16:06:36+09:00",
-      "updated_at": "2026-09-28T17:12:27+09:00",
-      "last_checked_at": "2026-09-28T16:06:36+09:00",
+      "updated_at": "2026-09-29T22:04:57+09:00",
+      "last_checked_at": "2026-09-29T22:00:03+09:00",
       "fail_count": 0,
       "voice": "落ち着いた解説調",
       "auto_fixes": 0,
       "related": [
-        "../../../products/pc-smartphone/honest-online-10000774/"
+        "../../../products/pc-smartphone/honest-online-10000774/",
+        "../../../products/pc-smartphone/gracevally-10000003/"
       ],
-      "review_changes": 3
+      "review_changes": 3,
+      "missing_count": 0,
+      "unavailable_count": 0
     },
     "honest-online:10000774": {
       "item_code": "honest-online:10000774",
@@ -238,7 +243,7 @@
       "item_name": "【47％OFFクーポンで996円〜】【レビュー数10,000件突破！楽天1位・1年保証】 スマホスタンド タブレットスタンド スマホ スタンド 折りたたみ 360°回転 スマートフォンスタンド 携帯スタンド スマホホルダー iPhone iPad スタンド 卓上 高さ調整",
       "display_name": "スマホスタンド タブレットスタンド 折りたたみ 360°回転",
       "item_url": "https://hb.afl.rakuten.co.jp/hgc/g00sceo1.ca4ucb3a.g00sceo1.ca4ud4a5/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fhonest-online%2Fusams-smp-stand-s3%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fhonest-online%2Fi%2F10000774%2F&rafcid=wsc_i_ra_7b91c1b3-6a2d-4ab1-af5e-40fd63cc804e",
-      "affiliate_url": "https://hb.afl.rakuten.co.jp/hgc/g00sceo1.ca4ucb3a.g00sceo1.ca4ud4a5/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fhonest-online%2Fusams-smp-stand-s3%2F&rafcid=wsc_i_ra_7b91c1b3-6a2d-4ab1-af5e-40fd63cc804e",
+      "affiliate_url": "https://hb.afl.rakuten.co.jp/hgc/g00sceo1.ca4ucb3a.g00sceo1.ca4ud4a5/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fhonest-online%2Fusams-smp-stand-s3%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fhonest-online%2Fi%2F10000774%2F&rafcid=wsc_i_is_7b91c1b3-6a2d-4ab1-af5e-40fd63cc804e",
       "category": "pc-smartphone",
       "category_label": "PC・スマホ周辺機器",
       "keyword": "",
@@ -285,14 +290,200 @@
       "title": "スマホスタンド タブレットスタンドの折りたたみ機能と選び方",
       "status": "published",
       "created_at": "2026-09-28T17:12:27+09:00",
-      "updated_at": "2026-09-28T17:12:27+09:00",
-      "last_checked_at": "2026-09-28T17:12:27+09:00",
+      "updated_at": "2026-09-29T22:04:57+09:00",
+      "last_checked_at": "2026-09-29T22:00:04+09:00",
       "fail_count": 0,
       "voice": "要点先出しの簡潔調",
       "auto_fixes": 1,
       "related": [
-        "../../../products/pc-smartphone/lapset-10000007/"
+        "../../../products/pc-smartphone/lapset-10000007/",
+        "../../../products/pc-smartphone/gracevally-10000003/"
       ],
+      "review_changes": 2,
+      "missing_count": 0,
+      "unavailable_count": 0
+    },
+    "gracevally:10000003": {
+      "item_code": "gracevally:10000003",
+      "slug": "gracevally-10000003",
+      "item_name": "楽天ランキング1位＼81%OFF＆P2倍で2,174円！／2024年間MVP ワイヤレスイヤホン bluetoothイヤホン 残量表示 Bluetooth6.0 ENC ノイズキャンセリング 自動ペアリング 36H連続再生 Type‐C急速充電 IPX7防水 AAC対応 マイク内蔵 iPhone/Android 旅行",
+      "display_name": "ワイヤレスイヤホン 残量表示 Bluetooth6.0",
+      "item_url": "https://hb.afl.rakuten.co.jp/hgc/g00u9311.ca4uc898.g00u9311.ca4ud256/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fgracevally%2Fgrace-x1%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fgracevally%2Fi%2F10000003%2F&rafcid=wsc_i_ra_7b91c1b3-6a2d-4ab1-af5e-40fd63cc804e",
+      "affiliate_url": "https://hb.afl.rakuten.co.jp/hgc/g00u9311.ca4uc898.g00u9311.ca4ud256/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fgracevally%2Fgrace-x1%2F&rafcid=wsc_i_ra_7b91c1b3-6a2d-4ab1-af5e-40fd63cc804e",
+      "category": "pc-smartphone",
+      "category_label": "PC・スマホ周辺機器",
+      "keyword": "",
+      "product_type": "ワイヤレスイヤホン",
+      "keywords": [
+        "ワイヤレスイヤホン",
+        "Bluetooth6.0",
+        "残量表示",
+        "ENCノイズキャンセリング",
+        "IPX7防水"
+      ],
+      "related_needs": [
+        "USB-C 充電ケーブル",
+        "スマートフォンスタンド",
+        "モバイルバッテリー"
+      ],
+      "primary_score": 68.4,
+      "score_detail": {
+        "info": 15.0,
+        "reviews": 15,
+        "rating": 8.4,
+        "price": 10,
+        "images": 10,
+        "specificity": 10,
+        "trend_bonus": 6.0,
+        "rank": 1
+      },
+      "ai_scores": {
+        "problem_solving": 13,
+        "target_clarity": 9,
+        "lp_fit": 4
+      },
+      "final_score": 94.4,
+      "lp_path": "products/pc-smartphone/gracevally-10000003/index.html",
+      "lp_url": "https://hearthandco.github.io/kurashi-dougu/products/pc-smartphone/gracevally-10000003/",
+      "images": [
+        "https://thumbnail.image.rakuten.co.jp/@0_mall/gracevally/cabinet/09355687/09355695/12855263/x1-2026front-60.jpg?_ex=128x128",
+        "https://thumbnail.image.rakuten.co.jp/@0_mall/gracevally/cabinet/09355687/09355695/imgrc0108899225.jpg?_ex=128x128"
+      ],
+      "image_count": 2,
+      "title": "Bluetooth6.0対応ワイヤレスイヤホンの特徴と残量表示",
+      "status": "published",
+      "created_at": "2026-09-29T22:01:19+09:00",
+      "updated_at": "2026-09-29T22:01:19+09:00",
+      "last_checked_at": "2026-09-29T22:01:19+09:00",
+      "fail_count": 0,
+      "voice": "比較検討を手伝う整理調",
+      "auto_fixes": 1,
+      "related": [
+        "../../../products/pc-smartphone/lapset-10000007/",
+        "../../../products/pc-smartphone/honest-online-10000774/"
+      ],
+      "review_changes": 1
+    },
+    "soutowelshop:10000000": {
+      "item_code": "soutowelshop:10000000",
+      "slug": "soutowelshop-10000000",
+      "item_name": "【公式限定色4色】バスタオル卒業宣言 バスタオル 小さめ ミニバスタオル ホテルスタイル 日本製 綿100% ブランド タオル まとめ買い 厚手 33×100cm ホテル仕様 スリムバスタオル ふわふわ 肌触り 速乾 吸水 厚手 おぼろタオル",
+      "display_name": "バスタオル卒業宣言 ミニバスタオル",
+      "item_url": "https://hb.afl.rakuten.co.jp/hgc/g00u5in1.ca4uca54.g00u5in1.ca4ud268/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsoutowelshop%2F10000000%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fsoutowelshop%2Fi%2F10000000%2F&rafcid=wsc_i_ra_7b91c1b3-6a2d-4ab1-af5e-40fd63cc804e",
+      "affiliate_url": "https://hb.afl.rakuten.co.jp/hgc/g00u5in1.ca4uca54.g00u5in1.ca4ud268/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsoutowelshop%2F10000000%2F&rafcid=wsc_i_ra_7b91c1b3-6a2d-4ab1-af5e-40fd63cc804e",
+      "category": "living",
+      "category_label": "生活雑貨・日用品",
+      "keyword": "",
+      "product_type": "バスタオル",
+      "keywords": [
+        "バスタオル卒業宣言",
+        "ミニバスタオル",
+        "コンパクトバスタオル",
+        "ホテルスタイル",
+        "日本製"
+      ],
+      "related_needs": [
+        "ヘアドライタオル",
+        "洗濯ネット",
+        "収納ケース"
+      ],
+      "primary_score": 68.4,
+      "score_detail": {
+        "info": 15.0,
+        "reviews": 13.5,
+        "rating": 9.9,
+        "price": 10,
+        "images": 10,
+        "specificity": 10,
+        "trend_bonus": 6.0,
+        "rank": 15
+      },
+      "ai_scores": {
+        "problem_solving": 13,
+        "target_clarity": 9,
+        "lp_fit": 4
+      },
+      "final_score": 94.4,
+      "lp_path": "products/living/soutowelshop-10000000/index.html",
+      "lp_url": "https://hearthandco.github.io/kurashi-dougu/products/living/soutowelshop-10000000/",
+      "images": [
+        "https://thumbnail.image.rakuten.co.jp/@0_mall/soutowelshop/cabinet/thumbnails//sgs.jpg?_ex=128x128",
+        "https://thumbnail.image.rakuten.co.jp/@0_mall/soutowelshop/cabinet/08826994/imgrc0146978913.jpg?_ex=128x128"
+      ],
+      "image_count": 2,
+      "title": "バスタオル卒業宣言のサイズ感と使い勝手を検証",
+      "status": "excluded",
+      "created_at": "2026-09-29T22:01:54+09:00",
+      "updated_at": "9999-12-31T00:00:00+09:00",
+      "last_checked_at": "2026-09-29T22:01:54+09:00",
+      "fail_count": 0,
+      "voice": "要点先出しの簡潔調",
+      "auto_fixes": 0,
+      "related": [
+        "../../../products/living/toucher-home-10000396/"
+      ],
+      "review_changes": 1,
+      "reason": "取り下げ: タイトル「使い勝手を検証」が実体験の検証を装う表現（基準B5・体験の捏造）＋本文に文字化け「ゆったり한」",
+      "manual_block": true
+    },
+    "toucher-home:10000396": {
+      "item_code": "toucher-home:10000396",
+      "slug": "toucher-home-10000396",
+      "item_name": "【20周年SALE 3916円→特価3700円】 日本製 ホテルスタイルタオル ビッグフェイスタオル 4枚セット 【圧縮】 楽天1位受賞 / 約40×100cm タオル フェイスタオル 小さめ バスタオル 厚手 セット メディア掲載 #バスタオルやめました",
+      "display_name": "日本製 ホテルスタイルタオル ビッグフェイスタオル 4枚セット",
+      "item_url": "https://hb.afl.rakuten.co.jp/hgc/g00qcmk1.ca4uc955.g00qcmk1.ca4ud65b/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ftoucher-home%2F925619%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Ftoucher-home%2Fi%2F10000396%2F&rafcid=wsc_i_ra_7b91c1b3-6a2d-4ab1-af5e-40fd63cc804e",
+      "affiliate_url": "https://hb.afl.rakuten.co.jp/hgc/g00qcmk1.ca4uc955.g00qcmk1.ca4ud65b/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ftoucher-home%2F925619%2F&rafcid=wsc_i_ra_7b91c1b3-6a2d-4ab1-af5e-40fd63cc804e",
+      "category": "living",
+      "category_label": "生活雑貨・日用品",
+      "keyword": "",
+      "product_type": "ビッグフェイスタオル",
+      "keywords": [
+        "ヒオリエ",
+        "ホテルスタイルタオル",
+        "ビッグフェイスタオル",
+        "泉州タオル",
+        "綿100%",
+        "4枚セット"
+      ],
+      "related_needs": [
+        "バスタオル",
+        "フェイスタオル",
+        "タオルハンガー",
+        "洗濯ネット"
+      ],
+      "primary_score": 68.4,
+      "score_detail": {
+        "info": 15.0,
+        "reviews": 14.9,
+        "rating": 8.5,
+        "price": 10,
+        "images": 10,
+        "specificity": 10,
+        "trend_bonus": 6.0,
+        "rank": 4
+      },
+      "ai_scores": {
+        "problem_solving": 12,
+        "target_clarity": 8,
+        "lp_fit": 4
+      },
+      "final_score": 92.4,
+      "lp_path": "products/living/toucher-home-10000396/index.html",
+      "lp_url": "https://hearthandco.github.io/kurashi-dougu/products/living/toucher-home-10000396/",
+      "images": [
+        "https://thumbnail.image.rakuten.co.jp/@0_mall/toucher-home/cabinet/image02/hsls201w_01x.jpg?_ex=128x128",
+        "https://thumbnail.image.rakuten.co.jp/@0_mall/toucher-home/cabinet/image02/hsl_nc261002.jpg?_ex=128x128"
+      ],
+      "image_count": 2,
+      "title": "日本製ホテルスタイルタオル ビッグフェイスタオル4枚セットの特徴と仕様",
+      "status": "published",
+      "created_at": "2026-09-29T22:04:57+09:00",
+      "updated_at": "2026-09-30T11:43:15+09:00",
+      "last_checked_at": "2026-09-29T22:04:57+09:00",
+      "fail_count": 0,
+      "voice": "生活者目線の語りかけ調",
+      "auto_fixes": 2,
+      "related": [],
       "review_changes": 2
     }
   },
@@ -300,8 +491,9 @@
     "next_category": 3,
     "gemini_calls": {
       "2026-09-25": 3,
-      "2026-09-28": 12
+      "2026-09-28": 12,
+      "2026-09-29": 9
     },
-    "next_ranking_source": 8
+    "next_ranking_source": 6
   }
 }
